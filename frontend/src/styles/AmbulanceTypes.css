@@ -1,0 +1,55 @@
+.ambulance-section{
+    max-width:1200px;
+    margin:60px auto;
+    padding:0 20px;
+}
+
+.ambulance-section h2{
+    text-align:center;
+    margin-bottom:35px;
+    font-size:32px;
+}
+
+.ambulance-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.ambulance-card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.ambulance-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+}
+
+.icon{
+    font-size:42px;
+    color:#e53935;
+    margin-bottom:15px;
+}
+
+.ambulance-card h3{
+    margin:10px 0;
+}
+
+.ambulance-card p{
+    color:#666;
+    font-size:14px;
+}
+
+.ambulance-card span{
+    display:block;
+    margin-top:15px;
+    font-size:22px;
+    font-weight:bold;
+    color:#e53935;
+}

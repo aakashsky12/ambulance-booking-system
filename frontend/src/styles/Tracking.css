@@ -1,0 +1,46 @@
+.tracking-page {
+  min-height: 100vh;
+  background: #081b3a;
+  color: white;
+  padding: 24px;
+}
+
+.tracking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.tracking-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.tracking-header button {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tracking-info {
+  background: #102b56;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tracking-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.status {
+  color: #22c55e;
+  font-weight: 700;
+}
